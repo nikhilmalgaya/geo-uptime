@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^5.0.1",
+    "bson": "^6.10.3",
+    "db": "*",
     "express": "^5.1.0"
   }
 }

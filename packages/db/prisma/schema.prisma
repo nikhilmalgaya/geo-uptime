@@ -32,9 +32,10 @@ ticks      WebsiteTicks[]
 model Website{
 
 id            String     @id @default(auto()) @map("_id") @db.ObjectId
-userId        String
+userId        String     @db.ObjectId
 url           String
 ticks         WebsiteTicks[]
+disabled      Boolean  @default(false)
 }
 
 model WebsiteTicks{
